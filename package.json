@@ -1,9 +1,9 @@
 {
   "name": "cupcake-demo",
-  "description": "Enter Description Here",
-  "version": "0.0.1",
-  "homepage": "http://#",
-  "author": "You",
+  "description": "Cupcake Chess Demo",
+  "version": "0.0.1-1",
+  "homepage": "http://krwindham.jit.su",
+  "author": "Kris windham",
   "private": true,
   "dependencies": {
     "coffee-script": ">= 1.x",
@@ -12,8 +12,14 @@
     "connect-assets": "*",
     "stylus": "*",
     "nib": "*",
-    "express": "*"
+    "express": "*",
+    "now": "*"
   },
-  "engines": { "node": "0.6 || 0.7" }
+  "engines": {
+    "node": "0.6 || 0.7"
+  },
+  "subdomain": "cupcake-demo",
+  "scripts": {
+    "start": "server.js"
+  }
 }
-
