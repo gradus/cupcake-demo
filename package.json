@@ -1,0 +1,19 @@
+{
+  "name": "cupcake-demo",
+  "description": "Enter Description Here",
+  "version": "0.0.1",
+  "homepage": "http://#",
+  "author": "You",
+  "private": true,
+  "dependencies": {
+    "coffee-script": ">= 1.x",
+    "nano": "*",
+    "coffeekup": "*",
+    "connect-assets": "*",
+    "stylus": "*",
+    "nib": "*",
+    "express": "*"
+  },
+  "engines": { "node": "0.6 || 0.7" }
+}
+
