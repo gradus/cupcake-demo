@@ -6,20 +6,14 @@ Framework: express
  
 Template: Coffeekup
 
-DataStore: MySql
  
 # About
 
+Node-Chess generated with Cupcake, written in coffee-script
+
 # Install
-
-# Usage
-
-# Testing
-
-# Feedback
-
-# License
-
-# Contributors
-
-
+git clone git@github.com:gradus/cupcake-demo.git
+cd cupcake-demo
+npm install .
+node server.js
+visit localhost:3000
